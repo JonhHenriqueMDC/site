@@ -1,0 +1,119 @@
+@media (max-width: 850px){
+.cabecalho ul {
+    display: none;
+}}
+
+@media (max-width: 850px){
+.menu{
+ display: block;
+}}
+
+@media (max-width: 600px){
+    .InfoDiv  {
+        font-size: 38px;
+    }}
+
+
+
+
+@media (max-width: 850px){
+    .principal .Sobre .mainSobre {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }}
+
+@media (max-width: 850px){
+    .principal .Sobre .mainSobre .imgSobre {
+        height: max-content;
+    }}
+
+
+
+@media (max-width: 850px){
+        .principal .titulo {
+            max-width: 100%;
+        }}
+        
+@media (max-width: 850px){
+        .principal .titulo h2 {
+            font-size: 1.5rem;
+        }}
+
+@media (max-width: 850px){
+
+.principal .Home .InfoDiv {
+    order: 2;
+    padding-top: 0px;}
+}
+
+@media (max-width: 850px){
+.principal .Home .myName {
+    font-size: 4rem;
+}}
+
+
+@media (max-width: 850px){
+
+
+.principal .Home .HomeImg {
+    margin-top: 80px;
+    max-width: 90%;
+}}
+
+
+
+@media (max-width: 850px){
+        .principal .Sobre .mainSobre p {
+            width: 100%;
+            font-size: 1.2rem;
+        }}
+        
+
+
+
+
+@media (max-width: 850px){
+
+        .principal .Home {
+            -webkit-box-align: center;
+            align-items: center;
+            flex-direction: column;
+        }   }
+
+
+@media (max-width: 850px){
+
+        .principal .Sobre .mainSobre .imgSobre {
+            height: max-content;
+        }}
+
+
+@media (max-width: 600px){
+            .InfoDiv span {
+                font-size: 38px;
+            }}
+    
+
+@media (max-width: 575px){
+                .InfoDiv span {
+                    font-size: 28px;
+                }}
+
+
+@media (max-width: 500px) {
+    .InfoDiv .buttons .imglink{
+        width: 100px;
+    }    
+}
+
+@media (max-width: 390px){
+    .InfoDiv span {
+        font-size: 20px;
+    }}
+
+
+@media (max-width: 570px){
+    .typing_bar{
+        display: none;
+    }
+}

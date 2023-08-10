@@ -1,0 +1,139 @@
+.Home {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5% 5% 0px;
+  }
+  
+.InfoDiv {
+    padding-top: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 100%;
+  }
+  
+.InfoDiv > h2 {
+    font-family: "Source Code Pro", monospace;
+    font-size: 45px;
+    color: rgb(220, 212, 240);
+  }
+  
+.myName {
+    max-width: 100%;
+    font-size: 8rem;
+    font-family: "glitchFont";
+    animation: piscar 3s linear both;
+    background: #48caf1;
+    background: linear-gradient(to top right, #48caf1 22%, #9466fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px -2px 45px rgba(148, 102, 252, 0.3);
+  }
+  
+span {
+    font-family: "Source Code Pro", monospace;
+    font-size: 40px;
+    color: #dcd4f0;
+    max-width: 100%;
+  }
+  
+.InfoDiv .buttons {
+    display: flex;
+    gap: 25px;
+    margin-top: 70px;
+    max-width: 100%;
+    z-index: 999;
+  }
+  
+.InfoDiv .buttons a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 999;
+  }
+  
+.InfoDiv .buttons a img {
+    width: 180px;
+  }
+  
+.InfoDiv .buttons a::before,
+.InfoDiv .buttons a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px; /* Ajuste a espessura da linha conforme necessário */
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    transform: translate(-100%, -100%) rotate(-45deg);
+    transition: transform 1s, opacity 0.5s;
+    z-index: -1;
+  }
+  
+.InfoDiv .buttons a:hover::before,
+.InfoDiv .buttons a:hover::after {
+    opacity: 1;
+    transform: translate(100%, 100%) rotate(-45deg);
+    
+  }
+  
+.InfoDiv .buttons a::before {
+    top: 0;
+    left: 0;
+  }
+  
+.InfoDiv .buttons a::after {
+    top: 0;
+    right: 0;
+  }
+  
+.Home .homeimg {
+    animation: 6s ease-in-out 0s infinite normal none running float;
+    width: 630px;
+    max-width: 100%;
+  }
+
+
+.InfoDiv .buttons a {
+    border: 3px solid rgb(149, 224, 241);
+    border-radius: 5px;
+    padding: 6px 10px;
+    box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, rgb(1, 156, 192) 0px -1px 30px -7px;
+    z-index: 999;
+}
+
+.InfoDiv .buttons .border2 {
+    border: 3px solid rgb(148, 102, 252);
+    box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, rgb(103, 57, 207) 0px -1px 30px -7px;
+    z-index: 999;
+}
+
+
+
+.InfoDiv .buttons .border2:hover{
+    transform: translateY(-10px);
+
+}
+.InfoDiv .buttons .border1:hover{
+    transform: translateY(-10px);
+
+}
+
+.typing-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .typing_text {
+    display: inline-block;
+  }
+  
+  .typing_bar {
+    position: absolute;
+    width: 2px;
+    height: 1em;
+    background-color: #dcd4f0;
+    animation: typingBarBlink 0.5s infinite alternate;
+  }
+  

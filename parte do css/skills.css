@@ -1,0 +1,14 @@
+
+
+
+
+
+
+.flex-cell {
+    min-height: 130px;
+    height: 130px;
+    min-width: 20px;
+    transition: .3s;
+    position: relative;
+    z-index: 99
+}

@@ -1,0 +1,79 @@
+nav{
+    display:block;
+}
+
+.cabecalho{
+    width: 100%;
+    margin:0px auto;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 15px 8%;
+    position: fixed;
+    background-color: rgb(25, 21, 31);
+    z-index: 9999;
+    border-bottom: 2px solid rgb(20, 16, 27);
+}
+
+
+.cabecalho > img {
+        width: 60px;
+        max-width: 100%;
+        animation: 50s linear 0s infinite normal none running rotation;
+}
+
+ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+}
+
+
+li > a {
+    font-family: "Source Code Pro", monospace;
+    text-decoration: none;
+    color: rgb(220, 212, 240);
+    -webkit-text-stroke: 0.5px rgb(101, 57, 207);
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 1s ease 0s;}
+
+
+.menu{
+        width: 30px;
+        height: 20px;
+        position: relative;
+        transform: rotate(0deg);
+        transition: all 0.5s ease-in-out 0s;
+        cursor: pointer;
+        display: none;
+}
+
+.menu span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(100deg, rgb(148, 102, 252) 0%, rgb(72, 202, 241) 100%);
+    border-radius: 9px;
+    opacity: 1;
+    left: 0px;
+    transform: rotate(0deg);
+    transition: all 0.25s ease-in-out 0s;
+}
+
+.menu span:nth-child(1) {
+    top: 0px;
+    width: 100%;
+}
+
+.menu span:nth-child(2), .jURrDh span:nth-child(3) {
+    top: 8px;
+}
+
+.menu span:nth-child(4) {
+    top: 16px;
+    width: 100%;
+}
